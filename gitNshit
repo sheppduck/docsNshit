@@ -9,5 +9,7 @@ Do my work
 git add my file(s)
 git commit -m "comment"
 git push joel-remote joel-feature-2
+git pull --rebase origin master
+
 
 Go to github and in the blackduck "upstream" kipp create a pr for the crap I pushed to MY remote origin(Joel remote).
