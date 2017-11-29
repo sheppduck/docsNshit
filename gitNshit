@@ -1,0 +1,13 @@
+Make a branch to work on
+Git pull from origin master with rebase
+
+
+git fetch --all
+git checkout origin/master
+git checkout -b Joel-feature-2
+Do my work 
+git add my file(s)
+git commit -m "comment"
+git push joel-remote joel-feature-2
+
+Go to github and in the blackduck "upstream" kipp create a pr for the crap I pushed to MY remote origin(Joel remote).
