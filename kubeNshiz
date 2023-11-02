@@ -1,0 +1,6 @@
+kubectl config set-context --current --namespace=my-namespace (so you don't need to add the -n for kubectl if you want to set a namespace context)
+
+kubectl config set-context --current --namespace=batch-recognition
+
+#Start tailing the log but at the end of the file (i.e. don't stream the entire log then start tailing it)
+kubectl logs my-pod-name --follow
